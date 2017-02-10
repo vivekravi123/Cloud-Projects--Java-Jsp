@@ -1,0 +1,4 @@
+buying	doors maint label
+safety
+low	high
+1	10

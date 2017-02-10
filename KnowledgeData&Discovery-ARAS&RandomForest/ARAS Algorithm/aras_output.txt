@@ -1,0 +1,251 @@
+
+------------------------------------
+
+Generating Certain Rules using LERS
+
+------------------------------------
+
+Loop 1:
+--------------------------
+
+Marked Values:
+[B3]=[x7]
+[A3]=[x3]
+[E1]=[x1]
+[G3]=[x8, x3]
+[F3]=[x6]
+[E3]=[x8, x5]
+[B2]=[x5]
+
+Certain Rules:
+[E1] -> D1
+
+Possible Rules:
+[A2] -> D1 [Support: 0, Confidence: 0%]
+[G1] -> D1 [Support: 1, Confidence: 25%]
+[G2] -> D1 [Support: 0, Confidence: 0%]
+[F2] -> D1 [Support: 1, Confidence: 14%]
+[E2] -> D1 [Support: 0, Confidence: 0%]
+[C1] -> D1 [Support: 1, Confidence: 20%]
+[B1] -> D1 [Support: 1, Confidence: 16%]
+[C2] -> D1 [Support: 0, Confidence: 0%]
+[A1] -> D1 [Support: 1, Confidence: 33%]
+
+Loop 2:
+--------------------------
+
+Marked Values:
+[A1, C2]=[x4]
+[E2, C1]=[x3, x6]
+[G2, B1]=[x2]
+[G1, E2]=[x4, x6]
+[G1, C2]=[x4]
+[E1]=[x1]
+[G3]=[x8, x3]
+[F3]=[x6]
+[E3]=[x8, x5]
+[B2]=[x5]
+[B3]=[x7]
+[A3]=[x3]
+[A2, G1]=[x6]
+[A1, E2]=[x4]
+[A2, C1]=[x8, x6]
+
+Certain Rules:
+
+Possible Rules:
+[B1, C2] -> D1 [Support: 0, Confidence: 0%]
+[A1, B1] -> D1 [Support: 1, Confidence: 50%]
+[G2, E2] -> D1 [Support: 0, Confidence: 0%]
+[E2, C2] -> D1 [Support: 0, Confidence: 0%]
+[G1, F2] -> D1 [Support: 1, Confidence: 33%]
+[F2, C1] -> D1 [Support: 1, Confidence: 25%]
+[E2, B1] -> D1 [Support: 0, Confidence: 0%]
+[G2, F2] -> D1 [Support: 0, Confidence: 0%]
+[F2, E2] -> D1 [Support: 0, Confidence: 0%]
+[C1, B1] -> D1 [Support: 1, Confidence: 25%]
+[G1, C1] -> D1 [Support: 1, Confidence: 33%]
+[G2, C2] -> D1 [Support: 0, Confidence: 0%]
+[F2, B1] -> D1 [Support: 1, Confidence: 20%]
+[F2, C2] -> D1 [Support: 0, Confidence: 0%]
+[G1, B1] -> D1 [Support: 1, Confidence: 33%]
+[A1, G1] -> D1 [Support: 1, Confidence: 33%]
+[A2, G2] -> D1 [Support: 0, Confidence: 0%]
+[A2, E2] -> D1 [Support: 0, Confidence: 0%]
+[A1, F2] -> D1 [Support: 1, Confidence: 33%]
+[A2, F2] -> D1 [Support: 0, Confidence: 0%]
+[A2, B1] -> D1 [Support: 0, Confidence: 0%]
+[A1, C1] -> D1 [Support: 1, Confidence: 50%]
+[A2, C2] -> D1 [Support: 0, Confidence: 0%]
+
+Loop 3:
+--------------------------
+
+Marked Values:
+[A1, C2]=[x4]
+[E2, C1]=[x3, x6]
+[G2, B1]=[x2]
+[G1, E2]=[x4, x6]
+[G1, C2]=[x4]
+[E1]=[x1]
+[G3]=[x8, x3]
+[F3]=[x6]
+[E3]=[x8, x5]
+[B2]=[x5]
+[A1, C1, B1]=[x1]
+[A2, B1, C2]=[x2]
+[B3]=[x7]
+[A3]=[x3]
+[A2, G1]=[x6]
+[A1, E2]=[x4]
+[A2, C1]=[x8, x6]
+
+Certain Rules:
+[A1, C1, B1] -> D1
+
+Possible Rules:
+[G1, C1, B1] -> D1 [Support: 1, Confidence: 50%]
+[G2, F2, E2] -> D1 [Support: 0, Confidence: 0%]
+[F2, B1, C2] -> D1 [Support: 0, Confidence: 0%]
+[G1, F2, C1] -> D1 [Support: 1, Confidence: 50%]
+[A1, G1, B1] -> D1 [Support: 1, Confidence: 50%]
+[A2, G2, C2] -> D1 [Support: 0, Confidence: 0%]
+[A2, F2, C2] -> D1 [Support: 0, Confidence: 0%]
+[A1, G1, C1] -> D1 [Support: 1, Confidence: 50%]
+[A2, F2, B1] -> D1 [Support: 0, Confidence: 0%]
+[E2, B1, C2] -> D1 [Support: 0, Confidence: 0%]
+[A2, E2, B1] -> D1 [Support: 0, Confidence: 0%]
+[A2, G2, E2] -> D1 [Support: 0, Confidence: 0%]
+[A1, F2, B1] -> D1 [Support: 1, Confidence: 50%]
+[A2, E2, C2] -> D1 [Support: 0, Confidence: 0%]
+[A1, G1, F2] -> D1 [Support: 1, Confidence: 33%]
+[A2, G2, F2] -> D1 [Support: 0, Confidence: 0%]
+[A1, F2, C1] -> D1 [Support: 1, Confidence: 50%]
+[G1, F2, B1] -> D1 [Support: 1, Confidence: 50%]
+[G2, E2, C2] -> D1 [Support: 0, Confidence: 0%]
+[F2, C1, B1] -> D1 [Support: 1, Confidence: 33%]
+[A2, F2, E2] -> D1 [Support: 0, Confidence: 0%]
+[F2, E2, C2] -> D1 [Support: 0, Confidence: 0%]
+[G2, F2, C2] -> D1 [Support: 0, Confidence: 0%]
+[F2, E2, B1] -> D1 [Support: 0, Confidence: 0%]
+
+Loop 4:
+--------------------------
+
+Marked Values:
+[A1, C2]=[x4]
+[E2, C1]=[x3, x6]
+[G2, B1]=[x2]
+[A2, F2, E2, B1]=[x2]
+[G1, E2]=[x4, x6]
+[G1, C2]=[x4]
+[G1, F2, C1, B1]=[x1]
+[E1]=[x1]
+[G3]=[x8, x3]
+[F3]=[x6]
+[E3]=[x8, x5]
+[B2]=[x5]
+[A1, C1, B1]=[x1]
+[A2, B1, C2]=[x2]
+[B3]=[x7]
+[A3]=[x3]
+[A2, G1]=[x6]
+[A1, E2]=[x4]
+[A2, C1]=[x8, x6]
+
+Certain Rules:
+[G1, F2, C1, B1] -> D1
+
+Possible Rules:
+[F2, E2, B1, C2] -> D1 [Support: 0, Confidence: 0%]
+[A2, F2, E2, C2] -> D1 [Support: 0, Confidence: 0%]
+[A1, G1, F2, B1] -> D1 [Support: 1, Confidence: 50%]
+[A2, G2, F2, C2] -> D1 [Support: 0, Confidence: 0%]
+[A2, G2, F2, E2] -> D1 [Support: 0, Confidence: 0%]
+[A2, G2, E2, C2] -> D1 [Support: 0, Confidence: 0%]
+[A1, G1, F2, C1] -> D1 [Support: 1, Confidence: 50%]
+[G2, F2, E2, C2] -> D1 [Support: 0, Confidence: 0%]
+
+Loop 5:
+--------------------------
+
+Marked Values:
+[A1, C2]=[x4]
+[E2, C1]=[x3, x6]
+[G2, B1]=[x2]
+[A2, F2, E2, B1]=[x2]
+[G1, E2]=[x4, x6]
+[G1, C2]=[x4]
+[G1, F2, C1, B1]=[x1]
+[E1]=[x1]
+[G3]=[x8, x3]
+[F3]=[x6]
+[E3]=[x8, x5]
+[B2]=[x5]
+[A1, C1, B1]=[x1]
+[A2, B1, C2]=[x2]
+[B3]=[x7]
+[A3]=[x3]
+[A2, G1]=[x6]
+[A1, E2]=[x4]
+[A2, C1]=[x8, x6]
+
+Certain Rules:
+None
+
+Possible Rules:
+[A2, G2, F2, E2, C2] -> D1 [Support: 0, Confidence: 0%]
+
+------------------------------------
+
+Generating Action Rules using ARAS
+
+------------------------------------
+ 
+ 
+Action Rule Schema: 
+[(G, ->G1)^(F, ->F2)^C1^B1] -> (D, D2->D1)
+ 
+Support for Action Schema: [x8, x3, x6]
+ 
+Marked Sets: 
+[C1, B1, A2]: [x8, x6]
+[C1, B1, A3]: [x3]
+[C1, B1, F3]: [x6]
+[C1, B1, G3]: [x8, x3]
+ 
+Action Rules: 
+[(G, ->G1)^(F, ->F2)^C1^B1] -> (D, D2->D1)
+[(G, ->G1)^(F, ->F2)^C1^B1] -> (D, D2->D1)
+[(G, ->G1)^(F, F3->F2)^C1^B1] -> (D, D2->D1)
+[(G, G3->G1)^(F, ->F2)^C1^B1] -> (D, D2->D1)
+ 
+ 
+Action Rule Schema: 
+[(E, ->E1)] -> (D, D2->D1)
+ 
+Support for Action Schema: [x8, x3, x4, x5, x6, x7]
+ 
+Marked Sets: 
+[A3]: [x3]
+[B2]: [x5]
+[B3]: [x7]
+[E3]: [x8, x5]
+ 
+Action Rules: 
+[(E, ->E1)] -> (D, D2->D1)
+[(E, ->E1)] -> (D, D2->D1)
+[(E, ->E1)] -> (D, D2->D1)
+[(E, E3->E1)] -> (D, D2->D1)
+ 
+ 
+Action Rule Schema: 
+[A1^C1^B1] -> (D, D2->D1)
+ 
+Support for Action Schema: []
+ 
+Marked Sets: 
+None
+ 
+Action Rules: 
+None
